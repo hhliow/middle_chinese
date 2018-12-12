@@ -10,7 +10,7 @@
 
 ---
 name: phengqim
-version: "2017.9.12"
+version: "2018.2.17"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2432,11 +2432,11 @@ use_preset_vocabulary: true
 瘛	tchieih
 瘛	tchiet
 瘛	gheh
-𥛚	threaek
+𥛚	threk
 翨	kjieh
 翨	scieh
 𧼪	thrieih
-𥱻	threaeh
+𥱻	threh
 𢨒	tchvh
 熾	tchvh
 𦥊	thrvh
@@ -3336,7 +3336,7 @@ use_preset_vocabulary: true
 𩍕	tciet
 龖	deop
 打	tengx
-打	taengx
+打	tiaengx
 大	daih
 大	dah
 汏	daih
@@ -11246,7 +11246,7 @@ use_preset_vocabulary: true
 踜	leongh
 冷	leng
 冷	lengx
-冷	lraengx
+冷	liaengx
 愣	leongh
 睖	thrvng
 刕	li
@@ -25441,6 +25441,8 @@ use_preset_vocabulary: true
 鰂	dzeok
 鱡	dzeok
 㻸	tsrim
+怎	tsvmx
+怎	tsumx
 怎	tsrimx
 譖	tsrimh
 鄫	dzvng
