@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim
   name: 中古拼音
-  version: "2017.8.28"
+  version: "2018.12.14"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -50,25 +50,56 @@ speller:
   algebra:
     - "xform/'//"
     - derive/([szrjc]|tsh|ch)iu/$1iw/
-    - derive/^([khgpbmq]h?|ng)i([mp])/$1v$2/
-    - derive/^([khgpbmq]h?|ng)(w?)i/$1r$2i/
-    - derive/v/y/
-    - derive/ieo/v/
-    - derive/^([td]?[szc]c?h?|j)iek/$1iaek/
+    - xform/(.)j/$1c/
+    - derive/^([pbm]|ph)cia/$1ia/
+    - xform/v/y/
+    - derive/^([khgpbmq]|kh|ng|ph)i([mp])/$1y$2/
+    - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
+    - derive/ieo/y/
     - derive/^sc/sh/
     - derive/^zc/zh/
     - derive/^dc/dzh/
-    - derive/^tc/c/
     - derive/ro(k|ng)/raew$1/
-    - abbrev/(rw?)ae/$1a/
-    - abbrev/(rw?)ea/$1e/
-    - abbrev/iae([xh]?$)/ia$1/
-    - abbrev/iae(k|ng)/ie$1/
+    - derive/(rw?)ae/$1a/
+    - derive/(rw?)ea/$1e/
+    - derive/iae([xh]?$)/ia$1/
+    - derive/iae(k|ng)/ie$1/
     - derive/iow(k|ng)/wio$1/
-    - derive/iow(k|ng)/io$1/
-    - abbrev/^([a-z]).+$/$1/
-    - abbrev/^ph.+$/f/
-    - abbrev/^kh.+$/x/
+    - derive/ow(k|ng)/o$1/
+    - derive/wo([nti])/u$1/
+    - derive/(n?[pbmkgqh]h?)rae/$1ae/
+    - derive/(n?[pbmkgqh]h?)rea/$1ea/
+    - derive/(n?[pbmkgqh]h?)rwae/$1wae/
+    - derive/(n?[pbmkgqh]h?)rwea/$1wea/
+    - derive/(n?[pbmkgqh]h?)rwae/$1oa/
+    - derive/(n?[pbmkgqh]h?)rwea/$1oe/
+    - derive/eoi([xh]?)$/eo$1/
+    - derive/wia([nt]|nx|nh)$/wio$1/
+    - derive/x$/q/
+    - derive/^thr/lh/
+    - derive/^tshr/lx/
+    - derive/^tshr/chr/
+    - derive/^tsh/sx/
+    - derive/^tsh/tx/
+    - derive/^dzr/jr/
+    - derive/^tch/ch/
+    - derive/^tsr/cr/
+    - derive/^dih$/drieh/
+    - derive/^dih$/djih/
+    - derive/^([tdn]|th)r(w?[iy])/$1$2/
+    - derive/wi/yi/
+    - derive/wi([aeo])/y$1/
+    - derive/iu/yu/
+    - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
+    - derive/ng([XH]?)$/g$1/
+    - derive/ng([XH]?)$/v$1/
+    - xform/^ng/v/
+    - xform/^gh(r?w?[aeou])/g$1/
+    - xform/^gh(w?[yi])/jh$1/
+    - derive/([jc]|jh|ch)i([aeou])/$1$2/
+    - xform/t([xh]?)$/r$1/
+    - xform/^kh/x/
+    - xform/^ph/f/
 
 translator:
   dictionary: phengqim
