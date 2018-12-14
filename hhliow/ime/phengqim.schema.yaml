@@ -76,6 +76,7 @@ speller:
     - derive/eoi([xh]?)$/eo$1/
     - derive/wia([nt]|nx|nh)$/wio$1/
     - derive/x$/q/
+    - derive/^ts([^h])/tz$1/
     - derive/^thr/lh/
     - derive/^tshr/lx/
     - derive/^tshr/chr/
