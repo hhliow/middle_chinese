@@ -93,8 +93,8 @@ speller:
     - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
     - derive/y(ng[xh]?|k)$/i$1/
-    - derive/ng([XH]?)$/g$1/
-    - derive/ng([XH]?)$/v$1/
+    - derive/ng([xh]?)$/g$1/
+    - derive/ng([xh]?)$/v$1/
     - xform/^ng/v/
     - xform/^gh(r?w?[aeou])/g$1/
     - xform/^gh(w?[yi])/jh$1/
