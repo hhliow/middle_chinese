@@ -91,7 +91,7 @@ speller:
     - derive/wi/yi/
     - derive/wi([aeo])/y$1/
     - derive/iu/yu/
-    - derive/^(tsr|tzr|dzr|jr|sr|tshr|zr|lh|chr)[yi](u|ong|ok)/$1$2/
+    - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)[yi](u|ong|ok)/$1$2/
     - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
     - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
