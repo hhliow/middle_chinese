@@ -163,6 +163,52 @@ patch:
       - {click: '.', long_click: '>'}
       - {click: '/', long_click: '?'}
       - {click: Return, long_click: CommitComment, width: 15}
+      
+  "preset_keyboards/mandarin":
+    name: mandarin
+    author: "hliow <hxliow@gmail.com>"
+    ascii_mode: 1
+    width: 10
+    height: 55
+    lock: true    
+    keys:
+      - {click: 'q', long_click: '!', swipe_up: 'Q', swipe_down: 1, hint: '1 ʔɑŋ'}
+      - {click: 'w', long_click: '@', swipe_up: 'W', swipe_down: 2, hint: '2 ʃ'}
+      - {click: 'e', long_click: '#', swipe_up: 'E', swipe_down: 3, hint: '3 去'}
+      - {click: 'r', long_click: '$', swipe_up: 'R', swipe_down: 4, hint: '4 ɨ'}
+      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5, hint: '5 ɑn'}
+      - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6, hint: '6 dʒ'}
+      - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7, hint: '7 dz'}
+      - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8, hint: '8 ts'}
+      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9, hint: '9 ɳ'}
+      - {click: 'p', long_click: 'Hide', swipe_up: 'P', swipe_down: 0, hint: '0 ɔn'}
+      - {width: 5}
+      - {click: 'a', long_click: select_all, swipe_up: 'A', swipe_down: '@', hint: '@ 入'}
+      - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*', hint: '* uŋ'}
+      - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: "_", hint: "_ iɛm"}
+      - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '=', hint: '= am'}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '| ŋ'}
+      - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
+      - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
+      - {click: 'k', long_click: ':', swipe_up: 'K' hint: 'aw'}
+      - {click: 'l', long_click: ';', swipe_up: 'L' hint: 'ai'}
+      - {width: 5}
+      - {click: Shift_L, send_bindings: false, width: 15}
+      - {click: 'z', long_click: '`', swipe_up: 'Z'}
+      - {click: 'x', long_click: cut, swipe_up: 'X', hint: 'iɛn上'}
+      - {click: 'c', long_click: copy, swipe_up: 'C', hint: 'tʃiɛw'}
+      - {click: 'v', long_click: paste, swipe_up: 'V', hint: 'ui'}
+      - {click: 'b', long_click: Time, swipe_up: 'B', swipe_down: Date, hint: 'əw'}
+      - {click: 'n', long_click: '"', swipe_up: 'N'}
+      - {click: 'm', long_click: "'", swipe_up: 'M'}
+      - {click: BackSpace, width: 15}
+      - {click: Keyboard_mc_phonemes_3, swipe_right: Keyboard_mc_phonemes_3_chinese, long_click: Menu, width: 15}
+      - {click: Keyboard_symbols, long_click: Keyboard_number}
+      - {click: ',', long_click: '<'}
+      - {click: space, width: 30, swipe_right: Schema_switch}
+      - {click: '.', long_click: '>'}
+      - {click: '/', long_click: '?'}
+      - {click: Return, long_click: CommitComment, width: 15}      
 
   "preset_keys/Dzhiangx_shieng":
     label: 上
