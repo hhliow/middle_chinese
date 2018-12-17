@@ -93,7 +93,7 @@ speller:
     - derive/iu/yu/
     - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
-    - derive/(c|zh|ch)ye([nti][xh]?)$/$1o$2/
+    - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
     - derive/^([mpbf]h?)yu([nti]?[xh]?)$/$1y$2/
     - derive/^([mpbf]h?)ya(ng|k)/$1wa$2/
     - derive/^([mpbf]h?)yong/$1ong/
