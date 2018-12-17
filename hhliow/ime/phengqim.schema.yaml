@@ -91,6 +91,7 @@ speller:
     - derive/wi/yi/
     - derive/wi([aeo])/y$1/
     - derive/iu/yu/
+    - derive/^(tsr|tzr|dzr|jr|sr|tshr|zr|lh|chr)[yi](u|ong|ok)/$1$2/
     - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
     - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
@@ -104,6 +105,7 @@ speller:
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
     - derive/ng([xh]?)$/g$1/
     - derive/ng([xh]?)$/v$1/
+    - derive/ung/um/
     - xform/^ng/v/
     - xform/^gh(r?w?[aeou])/g$1/
     - xform/^gh(w?[yi])/jh$1/
