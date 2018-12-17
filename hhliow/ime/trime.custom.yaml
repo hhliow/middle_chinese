@@ -187,7 +187,7 @@ patch:
       - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*', hint: '* uŋ'}
       - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: "_", hint: "_ iɛm"}
       - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '=', hint: '= am'}
-      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '| əŋ'}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '| (ə)ŋ'}
       - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
       - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
       - {click: 'k', long_click: ':', swipe_up: 'K', hint: 'aw'}
