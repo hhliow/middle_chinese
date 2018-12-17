@@ -180,14 +180,14 @@ patch:
       - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6, hint: '6 dʒ'}
       - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7, hint: '7 dz'}
       - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8, hint: '8 ts'}
-      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9, hint: '9 ɳ'}
+      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9, hint: '9 ŋ-'}
       - {click: 'p', long_click: 'Hide', swipe_up: 'P', swipe_down: 0, hint: '0 ɔn'}
       - {width: 5}
       - {click: 'a', long_click: select_all, swipe_up: 'A', swipe_down: '@', hint: '@ 入'}
       - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*', hint: '* uŋ'}
       - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: "_", hint: "_ iɛm"}
       - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '=', hint: '= am'}
-      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '| ŋ'}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '| əŋ'}
       - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
       - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
       - {click: 'k', long_click: ':', swipe_up: 'K', hint: 'aw'}
@@ -199,8 +199,8 @@ patch:
       - {click: 'c', long_click: copy, swipe_up: 'C', hint: 'tʃiɛw'}
       - {click: 'v', long_click: paste, swipe_up: 'V', hint: 'ui'}
       - {click: 'b', long_click: Time, swipe_up: 'B', swipe_down: Date, hint: 'əw'}
-      - {click: 'n', long_click: '"', swipe_up: 'N'}
-      - {click: 'm', long_click: "'", swipe_up: 'M'}
+      - {click: 'n', long_click: '"', swipe_up: 'N', hint: '| ən'}
+      - {click: 'm', long_click: "'", swipe_up: 'M', hint: '| əm'}
       - {click: BackSpace, width: 15}
       - {click: Keyboard_latin, long_click: Menu, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
