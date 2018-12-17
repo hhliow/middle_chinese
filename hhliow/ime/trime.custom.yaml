@@ -199,8 +199,8 @@ patch:
       - {click: 'c', long_click: copy, swipe_up: 'C', hint: 'tʃiɛw'}
       - {click: 'v', long_click: paste, swipe_up: 'V', hint: 'ui'}
       - {click: 'b', long_click: Time, swipe_up: 'B', swipe_down: Date, hint: 'əw'}
-      - {click: 'n', long_click: '"', swipe_up: 'N', hint: '| ən'}
-      - {click: 'm', long_click: "'", swipe_up: 'M', hint: '| əm'}
+      - {click: 'n', long_click: '"', swipe_up: 'N', hint: 'ən'}
+      - {click: 'm', long_click: "'", swipe_up: 'M', hint: 'əm'}
       - {click: BackSpace, width: 15}
       - {click: Keyboard_latin, long_click: Menu, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
