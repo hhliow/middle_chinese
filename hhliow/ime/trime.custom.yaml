@@ -167,7 +167,7 @@ patch:
   "preset_keyboards/mandarin":
     name: mandarin
     author: "hliow <hxliow@gmail.com>"
-    ascii_mode: 1
+    ascii_mode: 0
     width: 10
     height: 55
     lock: true    
@@ -176,7 +176,7 @@ patch:
       - {click: 'w', long_click: '@', swipe_up: 'W', swipe_down: 2, hint: '2 ʃ'}
       - {click: 'e', long_click: '#', swipe_up: 'E', swipe_down: 3, hint: '3 去'}
       - {click: 'r', long_click: '$', swipe_up: 'R', swipe_down: 4, hint: '4 ɨ'}
-      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5, hint: '5 ɑn'}
+      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5, hint: '5 an'}
       - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6, hint: '6 dʒ'}
       - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7, hint: '7 dz'}
       - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8, hint: '8 ts'}
