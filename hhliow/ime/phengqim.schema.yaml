@@ -74,7 +74,7 @@ speller:
     - derive/(n?[pbmkgqh]h?)rwae/$1oa/
     - derive/(n?[pbmkgqh]h?)rwea/$1oe/
     - derive/eoi([xh]?)$/eo$1/
-    - derive/wia([ntmp]|nx|nh)$/wio$1/
+    - derive/wia([ntmpi][xh]?)$/wio$1/
     - derive/x$/q/
     - derive/^ts([^h])/tz$1/
     - derive/^thr/lh/
