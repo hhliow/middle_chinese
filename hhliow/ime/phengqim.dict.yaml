@@ -10,7 +10,7 @@
 
 ---
 name: phengqim
-version: "2018.2.17"
+version: "2018.12.19"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -3622,6 +3622,7 @@ use_preset_vocabulary: true
 鍀	teok
 𣌏	teok
 的	tek
+的	ty
 扽	twonh
 登	teong
 䔲	teong
