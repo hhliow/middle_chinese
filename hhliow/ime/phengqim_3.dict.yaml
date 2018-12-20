@@ -9,8 +9,8 @@
 #
 
 ---
-name: phengqim
-version: "2018.12.19"
+name: phengqim_3
+version: "2017.8.28"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2268,7 +2268,7 @@ use_preset_vocabulary: true
 騬	zcvng
 逞	thriengx
 徎	thengx
-徎	driengx
+徎	triengx
 悜	thriengx
 庱	thrvng
 庱	thrvngx
@@ -2432,11 +2432,11 @@ use_preset_vocabulary: true
 瘛	tchieih
 瘛	tchiet
 瘛	gheh
-𥛚	threk
+𥛚	threaek
 翨	kjieh
 翨	scieh
 𧼪	thrieih
-𥱻	threh
+𥱻	threaeh
 𢨒	tchvh
 熾	tchvh
 𦥊	thrvh
@@ -3336,7 +3336,7 @@ use_preset_vocabulary: true
 𩍕	tciet
 龖	deop
 打	tengx
-打	tiaengx
+打	taengx
 大	daih
 大	dah
 汏	daih
@@ -3622,7 +3622,6 @@ use_preset_vocabulary: true
 鍀	teok
 𣌏	teok
 的	tek
-的	ty
 扽	twonh
 登	teong
 䔲	teong
@@ -3967,7 +3966,7 @@ use_preset_vocabulary: true
 啑	sraep
 啑	teh
 𠗨	dep
-𠗨	draep
+𠗨	traep
 镻	det
 堞	dep
 揲	dep
@@ -3977,7 +3976,7 @@ use_preset_vocabulary: true
 耋	det
 喋	dep
 喋	tep
-喋	draep
+喋	traep
 㥈	dep
 詄	det
 惵	dep
@@ -11247,7 +11246,7 @@ use_preset_vocabulary: true
 踜	leongh
 冷	leng
 冷	lengx
-冷	liaengx
+冷	lraengx
 愣	leongh
 睖	thrvng
 刕	li
@@ -21832,7 +21831,7 @@ use_preset_vocabulary: true
 䊝	sit
 𤏻	sep
 鞢	sep
-鞢	draep
+鞢	traep
 䵦	ziaex
 䉣	siaeh
 㒠	ghreaih
@@ -23318,7 +23317,7 @@ use_preset_vocabulary: true
 燁	ghiep
 擖	khreat
 擖	kraet
-擖	draep
+擖	traep
 𠟪	tshiep
 𠟪	ngiap
 鄴	ngiap
@@ -24089,7 +24088,7 @@ use_preset_vocabulary: true
 迎	ngiaeng
 迎	ngiaengh
 盈	jieng
-𣵹	driengx
+𣵹	triengx
 𦳖	ghwengx
 桯	gheng
 桯	theng
@@ -25442,8 +25441,6 @@ use_preset_vocabulary: true
 鰂	dzeok
 鱡	dzeok
 㻸	tsrim
-怎	tsvmx
-怎	tsumx
 怎	tsrimx
 譖	tsrimh
 鄫	dzvng
@@ -25520,12 +25517,12 @@ use_preset_vocabulary: true
 霅	tciep
 霅	ghraep
 霅	seop
-霅	draep
+霅	traep
 𧼰	dzreap
 𩿤	tsreat
 鍘	dzraet
 鍘	dzreat
-𤁳	draep
+𤁳	traep
 䮢	dzreap
 𨰉	dzraet
 厏	tsraex
