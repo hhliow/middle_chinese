@@ -1,4 +1,4 @@
-# Rime dictionary
+﻿# Rime dictionary
 # vim: set ts=8 sw=8 noet:
 # encoding: utf-8
 #
@@ -9,8 +9,8 @@
 #
 
 ---
-name: phengqim_3
-version: "2017.8.28"
+name: phengqim
+version: "2018.2.15"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -2268,7 +2268,7 @@ use_preset_vocabulary: true
 騬	zcvng
 逞	thriengx
 徎	thengx
-徎	triengx
+徎	driengx
 悜	thriengx
 庱	thrvng
 庱	thrvngx
@@ -3966,7 +3966,7 @@ use_preset_vocabulary: true
 啑	sraep
 啑	teh
 𠗨	dep
-𠗨	traep
+𠗨	draep
 镻	det
 堞	dep
 揲	dep
@@ -3976,7 +3976,7 @@ use_preset_vocabulary: true
 耋	det
 喋	dep
 喋	tep
-喋	traep
+喋	draep
 㥈	dep
 詄	det
 惵	dep
@@ -21831,7 +21831,7 @@ use_preset_vocabulary: true
 䊝	sit
 𤏻	sep
 鞢	sep
-鞢	traep
+鞢	draep
 䵦	ziaex
 䉣	siaeh
 㒠	ghreaih
@@ -23317,7 +23317,7 @@ use_preset_vocabulary: true
 燁	ghiep
 擖	khreat
 擖	kraet
-擖	traep
+擖	draep
 𠟪	tshiep
 𠟪	ngiap
 鄴	ngiap
@@ -24088,7 +24088,7 @@ use_preset_vocabulary: true
 迎	ngiaeng
 迎	ngiaengh
 盈	jieng
-𣵹	triengx
+𣵹	driengx
 𦳖	ghwengx
 桯	gheng
 桯	theng
@@ -25441,6 +25441,8 @@ use_preset_vocabulary: true
 鰂	dzeok
 鱡	dzeok
 㻸	tsrim
+怎	tsvmx
+怎	tsumx
 怎	tsrimx
 譖	tsrimh
 鄫	dzvng
@@ -25517,12 +25519,12 @@ use_preset_vocabulary: true
 霅	tciep
 霅	ghraep
 霅	seop
-霅	traep
+霅	draep
 𧼰	dzreap
 𩿤	tsreat
 鍘	dzraet
 鍘	dzreat
-𤁳	traep
+𤁳	draep
 䮢	dzreap
 𨰉	dzraet
 厏	tsraex
