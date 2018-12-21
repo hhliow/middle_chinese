@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim
   name: 中古拼音
-  version: "2018.12.17"
+  version: "2018.12.21"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -106,6 +106,8 @@ speller:
     - derive/ng([xh]?)$/g$1/
     - derive/ng([xh]?)$/v$1/
     - derive/ung/um/
+    - derive/wa([nti]?[xh]?)$/oo$1/
+    - derive/rwa([nti]?[xh]?)$/ro$1/
     - xform/^ng/v/
     - xform/^gh(r?w?[aeou])/g$1/
     - xform/^gh(w?[yi])/jh$1/
