@@ -112,6 +112,7 @@ speller:
     - xform/^gh(r?w?[aeou])/g$1/
     - xform/^gh(w?[yi])/jh$1/
     - derive/([jc]|jh|ch|^zh|^sh)i([aeou])/$1$2/
+    - derive/([jc]|jh|ch|^zh|^sh)wi([nt][xh]?)$/$1u$2/
     - xform/t([xh]?)$/r$1/
     - xform/^kh/x/
     - xform/^ph/f/
