@@ -124,9 +124,8 @@ speller:
     - xform/(.)j?(w?)i([aeiouAEY_])/$1$2_i_$3/
     - xform/w_i_/_y_/
     - xform/w([aeiouAEY_])/_w_$1/
-    - xform/[oY]m([XHK]?)$/_B$1/
     - xform/[oY]n([XK]?H?)$/_T$1/
-    - xform/[oY]I([XK]?H?)$/_R$1/
+    - xform/[oY]I([XK]?H?)$/_S$1/
     - xform/YN([XK]?H?)$/_K$1/
     - xform/Aw([XHK]?)$/_P$1/
     - xform/AN([XHK]?)$/_k$1/
@@ -136,7 +135,7 @@ speller:
     - xform/Em([XK]?H?)$/_m$1/
     - xform/En([XK]?H?)$/_n$1/
     - xform/EI([XK]?H?)$/_J$1/
-    - xform/EN([XK]?H?)$/_g$1/
+    - xform/EN([XK]?H?)$/_N$1/
     - xform/E([XHK]?)$/_U$1/
     - xform/aN([XHK]?)$/_x$1/
     - xform/a([XK]?H?)$/_Q$1/
@@ -151,6 +150,7 @@ speller:
     - xform/owN([XK]?H?)$/_E$1/
     - xform/o([XK]?H?)$/_L$1/
     - xform/v([XK]?H?)$/_z$1/
+    - xform/[oY]m([XHK]?)$/_v$1/
     - xform/_w(_.*)$/_w$1/
     - xform/_y(_.*)$/_D$1/
     - xform/_i(_.*)$/_j$1/
