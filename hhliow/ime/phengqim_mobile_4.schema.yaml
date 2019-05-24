@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.5.23"
+  version: "2019.5.24"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -125,8 +125,9 @@ speller:
     - xform/w_i_/_y_/
     - xform/w([aeiouAEY_])/_w_$1/
     - xform/[oY]n([XK]?H?)$/_T$1/
+    - derive/i_YI([XK]?H?)$/_M$1/
     - xform/[oY]I([XK]?H?)$/_S$1/
-    - xform/YN([XK]?H?)$/_K$1/
+    - xform/YN([XK]?H?)$/_E_$1/
     - xform/Aw([XHK]?)$/_P$1/
     - xform/AN([XHK]?)$/_k$1/
     - xform/A([XK]?H?)$/_c$1/
@@ -134,25 +135,27 @@ speller:
     - xform/Am([XHK]?)$/_p$1/
     - xform/Em([XK]?H?)$/_m$1/
     - xform/En([XK]?H?)$/_n$1/
-    - xform/EI([XK]?H?)$/_J$1/
+    - xform/EI([XK]?H?)$/_Z$1/
     - xform/EN([XK]?H?)$/_N$1/
     - xform/E([XHK]?)$/_U$1/
     - xform/aN([XHK]?)$/_x$1/
     - xform/a([XK]?H?)$/_Q$1/
     - xform/an([XK]?H?)$/_r$1/
     - xform/am([XHK]?)$/_f$1/
+    - derive/i_im([XK]?H?)$/_X$1/
     - xform/im([XK]?H?)$/_W$1/
-    - derive/i_in([XK]?H?)$/_G$1/    
+    - derive/i_in([XK]?H?)$/_G$1/
     - xform/in([XK]?H?)$/_h$1/
-    - xform/i([XK]?H?)$/_i$1/
-    - xform/ON([XK]?H?)$/_O$1/
+    - derive/i_i([XK]?H?)$/_D$1/
+    - xform/i([XK]?H?)$/_H$1/
+    - xform/ON([XK]?H?)$/_K$1/
     - xform/aw([XHK]?)$/_F$1/
-    - xform/owN([XK]?H?)$/_E$1/
+    - xform/owN([XK]?H?)$/_O$1/
     - xform/o([XK]?H?)$/_L$1/
     - xform/v([XK]?H?)$/_z$1/
     - xform/[oY]m([XHK]?)$/_v$1/
     - xform/_w(_.*)$/_w$1/
-    - xform/_y(_.*)$/_D$1/
+    - xform/_y(_.*)$/_y$1/
     - xform/_i(_.*)$/_j$1/
     - xform/u([XK]?H?)$/_s$1/
     - xform/uN([XK]?H?)$/_q$1/
@@ -160,6 +163,7 @@ speller:
     - xform/em([XK]?H?)$/_b$1/
     - xform/en([XK]?H?)$/_d$1/
     - xform/eN([XK]?H?)$/_g$1/
+    - derive/e([XK]?H?)$/_V$1/
     - xform/e([XK]?H?)$/_J$1/
     - xform/_//
 
