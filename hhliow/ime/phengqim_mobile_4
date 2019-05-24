@@ -1,0 +1,185 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: phengqim_mobile_4
+  name: 中古拼音手機四式
+  version: "2019.5.23"
+  author:
+    - Phjong <hxliow@gmail.com>
+  description: |
+    切韻音系
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文 , 西文 ]
+  - name: half_shape
+    states: [ 全角 , 半角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  algebra:
+    - "xform/'//"
+    - derive/^trwoix$/trweaix/
+    - derive/^trwoix$/triuix/
+    - derive/^threh$/threaih/
+    - derive/^threk$/threak/
+    - derive/^dih$/drieh/
+    - derive/^zwanx$/zwianx/
+    - derive/([szrjc]|tsh|ch)iu/$1iw/
+    - xform/ro/rO/
+    - xform/^nj/U/
+    - xform/^tch/Q/
+    - xform/^tc/c/
+    - xform/^tsr/C/
+    - xform/^tshr/I/
+    - xform/^tsh/F/
+    - xform/^ts/P/
+    - xform/^tr/t/
+    - xform/^kh/x/
+    - xform/^thr/r_/
+    - xform/^th/r_/
+    - xform/^ph/f/
+    - xform/^gh/G/
+    - xform/^dc/V/
+    - xform/^dzr/J/
+    - xform/^dz/B/
+    - xform/^dr/D/
+    - xform/^z[rc]/Z/
+    - xform/^z([^rc])/d$1/
+    - xform/^sc/L/
+    - xform/^sr/S/
+    - xform/^nr/M/
+    - xform/^j/j_/
+    - xform/p$/mK/
+    - xform/t$/nK/
+    - xform/ng/N/
+    - xform/k$/NK/
+    - xform/x$/X/
+    - xform/h$/H/
+    - xform/^ph/f/
+    - xform/^kh/x/
+    - derive/(ae|a|ie)iH/$1nKH/
+    - derive/j(w?)i([mnw]?[XHK]?)$/$1ii$2/
+    - xform/eo/Y/
+    - xform/v/iY/
+    - derive/YNK/YK/
+    - derive/iY([XK]?H?)$/v$1/
+    - xform/iu([ni][XHK]?)$/wiY$1/
+    - xform/a/A/
+    - xform/Ae/a/
+    - xform/eA/E/
+    - derive/([^jw]|[^j]w)ie([N?[XK]?H?|nKH)$/$1iE$2/
+    - xform/^([pfbmkxgNqh]w?)ie/$1ia/
+    - xform/^([pfbmkxgNqhlG])r/$1/
+    - derive/([^jw]|[^j]w)ie([mnNiw])/$1ia$2/
+    - xform/^([pfbmkxgNqh]w?)i([mn])/$1iE$2/
+    - xform/^([pfbmkxgNqh]w?)i([XH]?)$/$1iEi$2/
+    - derive/([^i])i([mn]?[XK]?H?)$/$1ii$2/
+    - derive/iE([mn][XHK]?)$/i$1/
+    - derive/iEi([XHK]?)$/i$1/
+    - derive/([^wi])([uo])/$1w$2/
+    - xform/iu([XH]?)$/wiu$1/
+    - derive/wiu([XH]?)$/wY$1/
+    - derive/wiu([XH]?)$/wiY$1/
+    - derive/iuN([XHK]?)$/wiuN$1/
+    - xform/iw/iu/
+    - derive/(i?)owN/w$1owN/
+    - derive/([aAe])nKH/$1KH/
+    - derive/([aAe])nKH/$1K/
+    - derive/EnKH/EiKH/
+    - derive/([EuY])NK/$1K/
+    - derive/inK/iK/
+    - derive/([EY])nK/$1iK/
+    - xform/([aeouAEY])i/$1I/
+    - xform/(.)j?(w?)i([aeiouAEY_])/$1$2_i_$3/
+    - xform/w_i_/_y_/
+    - xform/w([aeiouAEY_])/_w_$1/
+    - xform/[oY]m([XHK]?)$/_B$1/
+    - xform/[oY]n([XK]?H?)$/_T$1/
+    - xform/[oY]I([XK]?H?)$/_R$1/
+    - xform/YN([XK]?H?)$/_K$1/
+    - xform/Aw([XHK]?)$/_P$1/
+    - xform/AN([XHK]?)$/_k$1/
+    - xform/A([XK]?H?)$/_c$1/
+    - xform/An([XK]?H?)$/_t$1/
+    - xform/Am([XHK]?)$/_p$1/
+    - xform/Em([XK]?H?)$/_m$1/
+    - xform/En([XK]?H?)$/_n$1/
+    - xform/EI([XK]?H?)$/_J$1/
+    - xform/EN([XK]?H?)$/_g$1/
+    - xform/E([XHK]?)$/_U$1/
+    - xform/aN([XHK]?)$/_x$1/
+    - xform/a([XK]?H?)$/_Q$1/
+    - xform/an([XK]?H?)$/_r$1/
+    - xform/am([XHK]?)$/_f$1/
+    - xform/im([XK]?H?)$/_W$1/
+    - xform/in([XK]?H?)$/_h$1/
+    - xform/i([XK]?H?)$/_i$1/
+    - xform/ON([XK]?H?)$/_O$1/
+    - xform/aw([XHK]?)$/_F$1/
+    - xform/owN([XK]?H?)$/_E$1/
+    - xform/o([XK]?H?)$/_L$1/
+    - xform/v([XK]?H?)$/_z$1/
+    - xform/_w(_.*)$/_w$1/
+    - xform/_y(_.*)$/_D$1/
+    - xform/_i(_.*)$/_j$1/
+    - xform/u([XK]?H?)$/_s$1/
+    - xform/uN([XK]?H?)$/_q$1/
+    - xform/ew([XHK]?)$/_B$1/
+    - xform/em([XK]?H?)$/_b$1/
+    - xform/en([XK]?H?)$/_d$1/
+    - xform/eN([XK]?H?)$/_g$1/
+    - xform/e([XK]?H?)$/_J$1/
+    - xform/_//
+
+translator:
+  dictionary: phengqim_3
+  spelling_hints: 4
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
