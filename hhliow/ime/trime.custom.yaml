@@ -271,7 +271,7 @@ patch:
     send: Eisu_toggle
     select: mc_phonemes_3_chinese
 
-  "preset_keys/mc_12_keys":
+  "preset_keys/Keyboard_mc_12_keys":
     label: 紐韻
     send: Eisu_toggle
     select: mc_12_keys
