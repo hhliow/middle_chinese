@@ -77,7 +77,7 @@ patch:
       # 第二行  
       - {click: "H", label: "H", hint: "S", swipe_up: "H", swipe_down: "KH", swipe_right: "H", swipe_left: "H"}
       - {click: "C", label: "tsr/ai", hint: "dzr/ei", swipe_up: "S", swipe_down: "J", swipe_right: "I", swipe_left: "Z"}
-      - {click: "w", label: "w", hint: "-wj-", swipe_up: "R", swipe_down: "D", swipe_right: "W", swipe_left: "M"}
+      - {click: "w", label: "w", hint: "-wj-/dr", swipe_up: "jW", swipe_down: "D", swipe_right: "W", swipe_left: "M"}
       - {click: "t", label: "tan", hint: "I->aen", swipe_up: "r", swipe_down: "d", swipe_right: "r", swipe_left: "n"}
       # 第三行
       - {click: "K", label: "入", hint: "", swipe_up: "KH", swipe_right: "K", swipe_down: "K", swipe_right: "K", swipe_left: "K"}
