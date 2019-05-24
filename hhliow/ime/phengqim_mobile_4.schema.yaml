@@ -143,6 +143,7 @@ speller:
     - xform/an([XK]?H?)$/_r$1/
     - xform/am([XHK]?)$/_f$1/
     - xform/im([XK]?H?)$/_W$1/
+    - derive/i_in([XK]?H?)$/_G$1/    
     - xform/in([XK]?H?)$/_h$1/
     - xform/i([XK]?H?)$/_i$1/
     - xform/ON([XK]?H?)$/_O$1/
