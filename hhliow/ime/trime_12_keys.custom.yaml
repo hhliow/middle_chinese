@@ -71,18 +71,18 @@ patch:
     keys:
       # 第一行  
       - {click: "X", label: "X", hint: "", swipe_up: "X", swipe_down: "X", swipe_right: "X", swipe_left: "X"}
-      - {click: "P", label: "ts/aw", hint: "dz/ew", swipe_up: "s", swipe_down: "B", swipe_right: "F", swipe_left: "l"}
-      - {click: "q", label: "q/ung", hint: "gh/jin", swipe_up: "E", swipe_down: "G", swipe_right: "h", swipe_left: "Q"}
-      - {click: "p", label: "p/am", hint: "b/em", swipe_up: "v", swipe_down: "b", swipe_right: "d", swipe_left: "m"}
+      - {click: "P", label: "ɨn<-ts/aw-", hint: "dz/ew", swipe_up: "s", swipe_down: "B", swipe_right: "F", swipe_left: "l"}
+      - {click: "q", label: "-q/ung->in", hint: "gh/jin", swipe_up: "E", swipe_down: "G", swipe_right: "h", swipe_left: "Q"}
+      - {click: "p", label: "p/am", hint: "b/em", swipe_up: "v", swipe_down: "b", swipe_right: "f", swipe_left: "m"}
       # 第二行  
       - {click: "H", label: "H", hint: "S", swipe_up: "H", swipe_down: "KH", swipe_right: "H", swipe_left: "H"}
-      - {click: "C", label: "tsr/ai", hint: "dzr/ei", swipe_up: "S", swipe_down: "J", swipe_right: "I", swipe_left: "Z"}
-      - {click: "w", label: "w", hint: "-wj-/dr", swipe_up: "jW", swipe_down: "D", swipe_right: "W", swipe_left: "M"}
-      - {click: "t", label: "tan", hint: "I->aen", swipe_up: "r", swipe_down: "d", swipe_right: "r", swipe_left: "n"}
+      - {click: "C", label: "zr<-tsr/ai-", hint: "dzr/ei", swipe_up: "S", swipe_down: "J", swipe_right: "I", swipe_left: "Z"}
+      - {click: "w", label: "nr<-w->im", hint: "-wj-/dr", swipe_up: "jW", swipe_down: "D", swipe_right: "W", swipe_left: "M"}
+      - {click: "t", label: "-t/an->th/aen", hint: "d/en", swipe_up: "T", swipe_down: "d", swipe_right: "r", swipe_left: "n"}
       # 第三行
       - {click: "K", label: "入", hint: "", swipe_up: "KH", swipe_right: "K", swipe_down: "K", swipe_right: "K", swipe_left: "K"}
-      - {click: "c", label: "tc'a", hint: "ing", swipe_up: "L", swipe_down: "V", swipe_right: "Q", swipe_left: "U"}
-      - {click: "j", label: "j", hint: "ji", swipe_up: "z", swipe_down: "ji", swipe_right: "i", swipe_left: "jS"}
+      - {click: "c", label: "ea<-tc/a-", hint: "ing", swipe_up: "L", swipe_down: "V", swipe_right: "Q", swipe_left: "U"}
+      - {click: "j", label: "ɨj<-j->i", hint: "ji", swipe_up: "z", swipe_down: "ji", swipe_right: "i", swipe_left: "jS"}
       - {click: "k", label: "k/ang", hint: "g/eng", swipe_up: "K", swipe_down: "g", swipe_right: "x", swipe_left: "N"}
       # 第四行
       - {click: Keyboard_latin, label: "Latin", long_click: Menu, width: 11}  
