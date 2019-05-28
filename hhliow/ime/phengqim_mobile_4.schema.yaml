@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.5.24"
+  version: "2019.5.28"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -53,9 +53,13 @@ speller:
     - derive/^trwoix$/triuix/
     - derive/^threh$/threaih/
     - derive/^threk$/threak/
+    - derive/^dr(w?i)/dj$1/
     - derive/^dih$/drieh/
+    - derive/^dih$/dvih/
     - derive/^zwanx$/zwianx/
     - derive/([szrjc]|tsh|ch)iu/$1iw/
+    - derive/([^i])e([xhXH]?)$/$1ei$2/
+    - derive/nr/n/
     - xform/ro/rO/
     - xform/^nj/U/
     - xform/^tch/Q/
@@ -73,9 +77,8 @@ speller:
     - xform/^dc/V/
     - xform/^dzr/J/
     - xform/^dz/B/
-    - xform/^dr/D/
+    - xform/^dr/d/
     - xform/^z[rc]/Z/
-    - xform/^z([^rc])/d$1/
     - xform/^sc/L/
     - xform/^sr/S/
     - xform/^nr/M/
@@ -91,22 +94,19 @@ speller:
     - derive/(ae|a|ie)iH/$1nKH/
     - derive/j(w?)i([mnw]?[XHK]?)$/$1ii$2/
     - xform/eo/Y/
-    - xform/v/iY/
-    - derive/YNK/YK/
-    - derive/iY([XK]?H?)$/v$1/
     - xform/iu([ni][XHK]?)$/wiY$1/
     - xform/a/A/
     - xform/Ae/a/
     - xform/eA/E/
-    - derive/([^jw]|[^j]w)ie([N?[XK]?H?|nKH)$/$1iE$2/
-    - xform/^([pfbmkxgNqh]w?)ie/$1ia/
+    - derive/iY/v/
+    - derive/v/iY/
+    - derive/v/iv/
+    - derive/YNK/YK/
+    - xform/^([pfbmkxgNqh]w?)ie/$1iE/
+    - derive/([^jw]|[^j]w)ie/$1iE/
     - xform/^([pfbmkxgNqhlG])r/$1/
-    - derive/([^jw]|[^j]w)ie([mnNiw])/$1ia$2/
-    - xform/^([pfbmkxgNqh]w?)i([mn])/$1iE$2/
-    - xform/^([pfbmkxgNqh]w?)i([XH]?)$/$1iEi$2/
-    - derive/([^i])i([mn]?[XK]?H?)$/$1ii$2/
-    - derive/iE([mn][XHK]?)$/i$1/
-    - derive/iEi([XHK]?)$/i$1/
+    - derive/iE([Niw])/ia$1/
+    - derive/^([^pfbmkxgNqhid]w?|j_w?)i([mn]?[XHK]?$)/$1ii$2/
     - derive/([^wi])([uo])/$1w$2/
     - xform/iu([XH]?)$/wiu$1/
     - derive/wiu([XH]?)$/wY$1/
@@ -119,13 +119,15 @@ speller:
     - derive/EnKH/EiKH/
     - derive/([EuY])NK/$1K/
     - derive/inK/iK/
-    - derive/([EY])nK/$1iK/
-    - xform/([aeouAEY])i/$1I/
-    - xform/(.)j?(w?)i([aeiouAEY_])/$1$2_i_$3/
+    - derive/(E|Y)nK/$1iK/
+    - xform/([aeouAEYv])i/$1I/
+    - derive/^(j_|c|Q|V|L|U|Z)(w?)i([aeouAY])/$1$2$3/
+    - xform/(.)j?(w?)i([aeiouAEYv_])/$1$2_i_$3/
     - xform/w_i_/_y_/
-    - xform/w([aeiouAEY_])/_w_$1/
-    - xform/[oY]n([XK]?H?)$/_T$1/
-    - derive/i_YI([XK]?H?)$/_M$1/
+    - xform/w([aeiouAEYv_])/_w_$1/
+    - xform/[oY]n([XK]?H?)$/_l$1/
+    - xform/vI([XK]?H?)$/_M$1/
+    - xform/vn([XK]?H?)$/_z$1/
     - xform/[oY]I([XK]?H?)$/_S$1/
     - xform/YN([XK]?H?)$/_E_$1/
     - xform/Aw([XHK]?)$/_P$1/
@@ -133,6 +135,7 @@ speller:
     - xform/A([XK]?H?)$/_c$1/
     - xform/An([XK]?H?)$/_t$1/
     - xform/Am([XHK]?)$/_p$1/
+    - xform/AI([XHK]?)$/_C$1/
     - xform/Em([XK]?H?)$/_m$1/
     - xform/En([XK]?H?)$/_n$1/
     - xform/EI([XK]?H?)$/_Z$1/
@@ -142,11 +145,11 @@ speller:
     - xform/a([XK]?H?)$/_Q$1/
     - xform/an([XK]?H?)$/_r$1/
     - xform/am([XHK]?)$/_f$1/
+    - xform/aI([XHK]?)$/_I$1/
     - derive/i_im([XK]?H?)$/_X$1/
     - xform/im([XK]?H?)$/_W$1/
     - derive/i_in([XK]?H?)$/_G$1/
     - xform/in([XK]?H?)$/_h$1/
-    - derive/i_i([XK]?H?)$/_D$1/
     - xform/i([XK]?H?)$/_H$1/
     - xform/ON([XK]?H?)$/_K$1/
     - xform/aw([XHK]?)$/_F$1/
@@ -163,8 +166,8 @@ speller:
     - xform/em([XK]?H?)$/_b$1/
     - xform/en([XK]?H?)$/_d$1/
     - xform/eN([XK]?H?)$/_g$1/
-    - derive/e([XK]?H?)$/_V$1/
-    - xform/e([XK]?H?)$/_J$1/
+    - xform/e([XK]?H?)$/_V$1/
+    - xform/eI([XK]?H?)$/_J$1/
     - xform/_//
 
 translator:
