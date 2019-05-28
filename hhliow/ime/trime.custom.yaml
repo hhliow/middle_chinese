@@ -130,14 +130,14 @@ patch:
     keys: [
       # 第一行  
       {click: X, hint: "", label: "上", swipe_down: X, swipe_left: X, swipe_right: X, swipe_up: X},
-      {click: P, hint: "ɨn< dz/ew >", label: "l< TS/ㄠ >", long_click: "s/ou", swipe_down: B, swipe_left: l, swipe_right: F, swipe_up: s},
-      {click: w, hint: "-wj-", label: "ɨŋ< W >im", long_click: jim, swipe_down: y, swipe_left: jK, swipe_right: W, swipe_up: X},
+      {click: P, hint: "ɨn< dz/ew >", label: "z< TS/ㄠ >", long_click: "s/ou", swipe_down: B, swipe_left: z, swipe_right: F, swipe_up: s},
+      {click: w, hint: "-wj-", label: "ɨŋ< W >im", long_click: jim, swipe_down: y, swipe_left: jE, swipe_right: W, swipe_up: X},
       {click: p, hint: "b/em", label: "P/ㆰ", long_click: "覃", swipe_down: b, swipe_left: m, swipe_right: f, swipe_up: v},
       # 第二行  
       {click: H, hint: "次", label: "去", swipe_down: "KH", swipe_left: H, swipe_right: H, swipe_up: H},
       {click: C, hint: "ɖʐ/ei", label: "ʐ< ʈʂ/ㄞ >", long_click: "ʂ/əi", swipe_down: J, swipe_left: Z, swipe_right: I, swipe_up: S},
-      {click: j, hint: "ɳ< ɖ/ji >", label: "ɨj< j >i", long_click: "ɨ", swipe_down: D, swipe_left: M, swipe_right: H, swipe_up: z},
-      {click: t, hint: "ɛn< d/en >æn", label: "n< T/ㄢ> tʰ", long_click: "ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: T},
+      {click: j, hint: "ɳ< ji >", label: "ɨj< j >i", long_click: "ɨ", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: z},
+      {click: t, hint: "ɛn< d/en >æn", label: "n< T/ㄢ> tʰ", long_click: "l/ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: l},
       # 第三行
       {click: K, hint: "", label: "入", swipe_down: K, swipe_left: K, swipe_right: K, swipe_up: KH},
       {click: c, hint: e, label: "ɛ< tɕ/A  >a", long_click: "ɕ/o", swipe_down: V, swipe_left: U, swipe_right: Q, swipe_up: L},
