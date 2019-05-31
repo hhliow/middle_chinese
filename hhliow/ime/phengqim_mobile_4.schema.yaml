@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.5.28"
+  version: "2019.5.29"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -53,6 +53,9 @@ speller:
     - derive/^trwoix$/triuix/
     - derive/^threh$/threaih/
     - derive/^threk$/threak/
+    - derive/([pbm]h?)w(ia|io[xh]?$)/$1$2/
+    - derive/([pbm]h?)wio([xh]?$)/$1ia$2/
+    - derive/([pbm]h?)iu([nit]|[xh]?$)/$1v$2/
     - derive/^dr(w?i)/dj$1/
     - derive/^dih$/drieh/
     - derive/^dih$/dvih/
@@ -146,12 +149,12 @@ speller:
     - xform/an([XK]?H?)$/_r$1/
     - xform/am([XHK]?)$/_f$1/
     - xform/aI([XHK]?)$/_I$1/
-    - derive/i_im([XK]?H?)$/_X$1/
+    - derive/i_im([XK]?H?)$/_X_$1/
     - xform/im([XK]?H?)$/_W$1/
     - derive/i_in([XK]?H?)$/_G$1/
     - xform/in([XK]?H?)$/_h$1/
-    - xform/i([XK]?H?)$/_H$1/
-    - xform/ON([XK]?H?)$/_K$1/
+    - xform/i([XK]?H?)$/_H_$1/
+    - xform/ON([XK]?H?)$/_K_$1/
     - xform/aw([XHK]?)$/_F$1/
     - xform/owN([XK]?H?)$/_O$1/
     - xform/o([XK]?H?)$/_L$1/
@@ -168,6 +171,8 @@ speller:
     - xform/eN([XK]?H?)$/_g$1/
     - xform/e([XK]?H?)$/_V$1/
     - xform/eI([XK]?H?)$/_J$1/
+    - derive/H$/w/
+    - derive/K$/y/
     - xform/_//
 
 translator:
