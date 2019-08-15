@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.5.29"
+  version: "2019.8.15"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -55,7 +55,7 @@ speller:
     - derive/^threk$/threak/
     - derive/([pbm]h?)w(ia|io[xh]?$)/$1$2/
     - derive/([pbm]h?)wio([xh]?$)/$1ia$2/
-    - derive/([pbm]h?)iu([nit]|[xh]?$)/$1v$2/
+    - derive/([pbm]h?)iu([nit]?[xh]?$)/$1v$2/
     - derive/^dr(w?i)/dj$1/
     - derive/^dih$/drieh/
     - derive/^dih$/dvih/
