@@ -123,37 +123,34 @@ patch:
     name: "mc_12_keys"
     ascii_mode: 0
     height: 55
-    width: 16
+    width: 20
     lock: true
     horizontal_gap: 3
     vertical_gap: 1    
     keys: [
-      # 第一行  
-      {click: X, hint: "", label: "上", swipe_down: X, swipe_left: X, swipe_right: X, swipe_up: X, width: 26},
+      # 第一行
+      {click: ",", swipe_up: "，", width: 10},
+      {click: X, hint: "", label: "上", swipe_down: X, swipe_left: X, swipe_right: X, swipe_up: X, width: 10},
       {click: P, label: "_", swipe_down: B, swipe_left: z, swipe_right: F, swipe_up: s, key_back_color: key_back_transparent},
       {click: w, label: "_", swipe_down: y, swipe_left: jE, swipe_right: W, swipe_up: X, key_back_color: key_back_transparent},
       {click: p, label: "_", swipe_down: b, swipe_left: m, swipe_right: f, swipe_up: v, key_back_color: key_back_transparent},
-      {click: "?", swipe_up: ？, width: 26},
-      # 第二行  
-      {click: H, hint: "次", label: "去", swipe_down: "KH", swipe_left: H, swipe_right: H, swipe_up: H, width: 26},
+      {click: "「", swipe_up: "〈", width: 10},
+      {click: "」", swipe_up: "〉", width: 10},
+      # 第二行
+      {click: "。", swipe_up: "、", width: 10},
+      {click: H, hint: "次", label: "去", swipe_down: "KH", swipe_left: H, swipe_right: H, swipe_up: H, width: 10}
       {click: C, label: "_", swipe_down: J, swipe_left: Z, swipe_right: I, swipe_up: S, key_back_color: key_back_transparent},
       {click: j, label: "_", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: z, key_back_color: key_back_transparent},
       {click: t, label: "_", long_click: "l/ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: l, key_back_color: key_back_transparent},
-      {click: "!", swipe_up: ！, width: 26},
+      {click: space, label: "式機手音拼古中", width: 20},
       # 第三行
-      {click: K, hint: "", label: "入", swipe_down: K, swipe_left: K, swipe_right: K, swipe_up: KH, width: 26},
+      {click: Keyboard_latin, label: Latin, long_click: Menu, width: 10},
+      {click: K, hint: "", label: "入", swipe_down: K, swipe_left: K, swipe_right: K, swipe_up: KH, width: 10},
       {click: c, label: "_", swipe_down: V, swipe_left: U, swipe_right: Q, swipe_up: L, key_back_color: key_back_transparent},
       {click: q, label: "_", swipe_down: G, swipe_left: K, swipe_right: h, swipe_up: "O", key_back_color: key_back_transparent},
       {click: k, label: "_", swipe_down: g, swipe_left: N, swipe_right: x, swipe_up: E, key_back_color: key_back_transparent},
-      {click: ",", swipe_up: ，, width: 26},
-      # 第四行
-      {click: Keyboard_latin, label: Latin, long_click: Menu, width: 11},
-      {click: "。", swipe_up: "、", width: 11},
-      {click: "「", swipe_up: "〈", width: 11},
-      {click: space, label: "式機手音拼古中", width: 34},
-      {click: "」", swipe_up: "〉", width: 11},
-      {click: BackSpace, label: "格退", width: 11},
-      {click: Return, width: 11}
+      {click: BackSpace, label: "格退", width: 7},
+      {click: Return, width: 13},
    ]
 
   "preset_keyboards/qwerty":
