@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.8.15"
+  version: "2019.11.5"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -158,7 +158,7 @@ speller:
     - xform/aw([XHK]?)$/_F$1/
     - xform/owN([XK]?H?)$/_O$1/
     - xform/o([XK]?H?)$/_L$1/
-    - xform/v([XK]?H?)$/_z$1/
+    - xform/v([XK]?H?)$/_R$1/
     - xform/[oY]m([XHK]?)$/_v$1/
     - xform/_w(_.*)$/_w$1/
     - xform/_y(_.*)$/_y$1/
