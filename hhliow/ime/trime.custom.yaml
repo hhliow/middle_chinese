@@ -259,7 +259,7 @@ patch:
     hilited_candidate_text_color: 0xffffd900
     hilited_comment_text_color: 0xffffd900
     hilited_text_color: 0xffffffff
-    label_color: 0xffffffff
+    label_color: 0x60DEEDB1
     keyboard_back_color: temp.png
     key_back_transparent: 0x60DEEDB1
 
