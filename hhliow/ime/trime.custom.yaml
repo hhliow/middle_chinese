@@ -130,21 +130,21 @@ patch:
     keys: [
       # 第一行  
       {click: X, hint: "", label: "上", swipe_down: X, swipe_left: X, swipe_right: X, swipe_up: X, width: 26},
-      {click: P, hint: "ɨn< dz/ew >", label: "z< TS/ㄠ >", long_click: "s/ou", swipe_down: B, swipe_left: z, swipe_right: F, swipe_up: s},
-      {click: w, hint: "-wj-", label: "ɨŋ< W >im", long_click: jim, swipe_down: y, swipe_left: jE, swipe_right: W, swipe_up: X},
-      {click: p, hint: "b/em", label: "P/ㆰ", long_click: "覃", swipe_down: b, swipe_left: m, swipe_right: f, swipe_up: v},
+      {click: P, hint: "ɨn< dz/ew >", label: "z< TS/ㄠ >", long_click: "s/ou", swipe_down: B, swipe_left: z, swipe_right: F, swipe_up: s, key_back_color: key_back_transparent},
+      {click: w, hint: "-wj-", label: "ɨŋ< W >im", long_click: jim, swipe_down: y, swipe_left: jE, swipe_right: W, swipe_up: X, key_back_color: key_back_transparent},
+      {click: p, hint: "b/em", label: "P/ㆰ", long_click: "覃", swipe_down: b, swipe_left: m, swipe_right: f, swipe_up: v, key_back_color: key_back_transparent},
       {click: "?", swipe_up: ？, width: 26},
       # 第二行  
       {click: H, hint: "次", label: "去", swipe_down: "KH", swipe_left: H, swipe_right: H, swipe_up: H, width: 26},
-      {click: C, hint: "ɖʐ/ei", label: "ʐ< ʈʂ/ㄞ >", long_click: "ʂ/əi", swipe_down: J, swipe_left: Z, swipe_right: I, swipe_up: S},
-      {click: j, hint: "ɳ< ji >", label: "ɨj< j >i", long_click: "ɨ", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: z},
-      {click: t, hint: "ɛn< d/en >æn", label: "n< T/ㄢ> tʰ", long_click: "l/ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: l},
+      {click: C, hint: "ɖʐ/ei", label: "ʐ< ʈʂ/ㄞ >", long_click: "ʂ/əi", swipe_down: J, swipe_left: Z, swipe_right: I, swipe_up: S, key_back_color: key_back_transparent},
+      {click: j, hint: "ɳ< ji >", label: "ɨj< j >i", long_click: "ɨ", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: z, key_back_color: key_back_transparent},
+      {click: t, hint: "ɛn< d/en >æn", label: "n< T/ㄢ> tʰ", long_click: "l/ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: l, key_back_color: key_back_transparent},
       {click: "!", swipe_up: ！, width: 26},
       # 第三行
       {click: K, hint: "", label: "入", swipe_down: K, swipe_left: K, swipe_right: K, swipe_up: KH, width: 26},
-      {click: c, hint: e, label: "ɛ< tɕ/A  >a", long_click: "ɕ/o", swipe_down: V, swipe_left: U, swipe_right: Q, swipe_up: L},
-      {click: q, hint: "ɦ/jin", label: "江< ʔ/東 >in", long_click: "冬", swipe_down: G, swipe_left: K, swipe_right: h, swipe_up: "O"},
-      {click: k, hint: "g/eŋ", label: "K/ㄤ", long_click: "曾", swipe_down: g, swipe_left: N, swipe_right: x, swipe_up: E},
+      {click: c, hint: e, label: "ɛ< tɕ/A  >a", long_click: "ɕ/o", swipe_down: V, swipe_left: U, swipe_right: Q, swipe_up: L, key_back_color: key_back_transparent},
+      {click: q, hint: "ɦ/jin", label: "江< ʔ/東 >in", long_click: "冬", swipe_down: G, swipe_left: K, swipe_right: h, swipe_up: "O", key_back_color: key_back_transparent},
+      {click: k, hint: "g/eŋ", label: "K/ㄤ", long_click: "曾", swipe_down: g, swipe_left: N, swipe_right: x, swipe_up: E, key_back_color: key_back_transparent},
       {click: ",", swipe_up: ，, width: 26},
       # 第四行
       {click: Keyboard_latin, label: Latin, long_click: Menu, width: 11},
@@ -250,39 +250,18 @@ patch:
 
   "preset_color_schemes/mc12":
     name: mc12
-    key_back_color: 0x60DEEDB1
+    back_color: 0xff00a381
+    border_color: 0xff00a381
+    candidate_text_color: 0xffffffff
+    comment_text_color: 0xffffffff
+    hilited_back_color: 0xffffd900
+    hilited_candidate_back_color: 0xffffffff
+    hilited_candidate_text_color: 0xffffd900
+    hilited_comment_text_color: 0xffffd900
+    hilited_text_color: 0xffffffff
+    label_color: 0xffffffff
     keyboard_back_color: temp.png
-    back_color: 0xe4e7e9 #候選區背景
-    border_color: 0xc1c7ca #邊框
-    candidate_separator_color: 0xc1c7ca #候選分割背景
-    candidate_text_color: 0x5a676e #候選文字
-    comment_text_color: 0x7b868c #提示
-    hilited_back_color: 0xccd3d7da #標明編碼背景
-    hilited_candidate_back_color: 0xd3d7da #標明候選背景
-    hilited_candidate_text_color: 0x000000 #標明候選文字
-    hilited_comment_text_color: 0x000000 #標明提示
-    hilited_key_back_color: 0xd3d7da #標明按鍵背景
-    hilited_key_symbol_color: 0x000000 #標明按鍵符號
-    hilited_key_text_color: 0x000000 #標明按鍵文字
-    hilited_off_key_back_color: 0xd3d7da #標明按鍵關閉狀態背景
-    hilited_off_key_text_color: 0x000000 #標明按鍵關閉狀態文字
-    hilited_on_key_back_color: 0xd3d7da #標明按鍵打開狀態背景
-    hilited_on_key_text_color: 0x000000 #標明按鍵打開狀態文字
-    hilited_text_color: 0x23948e #標明編碼
-    key_back_color: 0xeceff1 #按鍵背景
-    key_border_color: 0xeceff1 #按鍵邊框
-    key_symbol_color: 0x5f6b73 #按鍵符號
-    key_text_color: 0x37474f #按鍵文字
-    label_color: 0x000000 #標籤
-    off_key_back_color: 0xd3d7da #按鍵關閉狀態背景
-    off_key_text_color: 0x000000 #按鍵關閉狀態文字
-    on_key_back_color: 0x23948e #按鍵打開狀態背景
-    on_key_text_color: 0x37474f #按鍵打開狀態文字
-    preview_back_color: 0x55bfbfbf #按鍵提示背景
-    preview_text_color: 0x23948e #按鍵提示文字
-    shadow_color: 0x000000 #陰影
-    text_color: 0x5a676e #編碼
-    text_back_color: 0xcce4e7e9 #編碼區背景
+    key_back_transparent: 0x60DEEDB1
 
   "preset_keys/Dzhiangx_shieng":
     label: 上
