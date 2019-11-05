@@ -140,7 +140,7 @@ patch:
       {click: "。", swipe_up: "、", width: 10},
       {click: H, hint: "次", label: "去", swipe_down: "KH", swipe_left: H, swipe_right: H, swipe_up: H, width: 10}
       {click: C, label: "_", swipe_down: J, swipe_left: Z, swipe_right: I, swipe_up: S, key_back_color: key_back_transparent},
-      {click: j, label: "_", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: z, key_back_color: key_back_transparent},
+      {click: j, label: "_", swipe_down: jH, swipe_left: M, swipe_right: H, swipe_up: R, key_back_color: key_back_transparent},
       {click: t, label: "_", long_click: "l/ən", swipe_down: d, swipe_left: n, swipe_right: r, swipe_up: l, key_back_color: key_back_transparent},
       {click: space, label: "式機手音拼古中", width: 20},
       # 第三行
