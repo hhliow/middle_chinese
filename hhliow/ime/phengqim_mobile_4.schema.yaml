@@ -73,6 +73,17 @@ speller:
     - derive/^bwi/fvi/
     - derive/^mwi/mvi/
     - derive/(^f|fh|mv|fv)i([aeiouy])/$1$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)[iv]([xh]?)$/$1eoi$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)i([mnpt][xh]?)$/$1eo$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)wi([nt][xh]?)$/$1weo$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)y(ng[xh]?)$/$1eo$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)y(k[xh]?)$/$1eo$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)io([xh]?)$/$1o$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)wio([xh]?)$/$1wo$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)iu(ng|k)([xh]?)$/$1u$2$3/
+    - xform/^(tsr|tshr|dzr|sr|zr)io(ng|k)([xh]?)$/$1o$2$3/
+    - xform/^(tsr|tshr|dzr|sr|zr)ie/$1ae/
+    - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - xform/ro/rO/
     - xform/^f([^h_])/P_$1/
     - xform/^fh([^h_])/F_$1/
@@ -139,8 +150,10 @@ speller:
     - derive/inK/iK/
     - derive/(E|Y)nK/$1iK/
     - xform/([aeouAEYv])i/$1I/
-    - derive/^(j_|c|Q|V|L|U|Z)(w?)i([aeouAY])/$1$2$3/
+    - derive/^(j_)(w?)i([aeouAY])/$1$2$3/
     - xform/(.)j?(w?)i([aeiouAEYv_])/$1$2_i_$3/
+    - derive/w_i_/_w_j_/
+    - derive/w_i_/_j_w_/
     - xform/w_i_/_y_/
     - xform/w([aeiouAEYv_])/_w_$1/
     - xform/[oY]n([XK]?H?)$/_l$1/
