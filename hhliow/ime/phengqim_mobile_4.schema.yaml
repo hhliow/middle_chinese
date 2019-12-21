@@ -85,10 +85,10 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)ie/$1ae/
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - xform/ro/rO/
-    - xform/^f([^h_])/P_$1/
-    - xform/^fh([^h_])/F_$1/
-    - xform/^fv([^h_])/B_$1/
-    - xform/^mv([^h_])/z_$1/
+    - xform/^f([^vh_])/P_$1/
+    - xform/^fh([^vh_])/F_$1/
+    - xform/^fv([^vh_])/B_$1/
+    - xform/^mv([^vh_])/z_$1/
     - xform/^nj([^hr_])/s_$1/
     - xform/^tch([^hr_])/Q_$1/
     - xform/^tc([^hr_])/c_$1/
