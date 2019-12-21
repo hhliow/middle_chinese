@@ -64,10 +64,10 @@ speller:
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - derive/([^i])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
-    - derive/^pv/fu/
-    - derive/^phv/fhu/
-    - derive/^bv/fvu/
-    - derive/^mv/mvu/
+    - derive/^pv/fv/
+    - derive/^phv/fhv/
+    - derive/^bv/fvv/
+    - derive/^mv/mvv/
     - derive/^pwi/fi/
     - derive/^phwi/fhi/
     - derive/^bwi/fvi/
