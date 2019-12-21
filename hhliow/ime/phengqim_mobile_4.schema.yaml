@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.11.5"
+  version: "2019.12.21"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -63,27 +63,37 @@ speller:
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - derive/([^i])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
+    - derive/^pwi/fi/
+    - derive/^phwi/fhi/
+    - derive/^bwi/fvi/
+    - derive/^mwi/mvi/
+    - derive/(^f|fh|mv|fv)i([aeiouy])/$1$2/
     - xform/ro/rO/
-    - xform/^nj/U/
-    - xform/^tch/Q/
-    - xform/^tc/c/
-    - xform/^tsr/C/
-    - xform/^tshr/I/
-    - xform/^tsh/F/
-    - xform/^ts/P/
+    - xform/^f([^h_])/P_$1/
+    - xform/^fh([^h_])/F_$1/
+    - xform/^fv([^h_])/B_$1/
+    - xform/^mv([^h_])/z_$1/
+    - xform/^nj([^hr_])/s_$1/
+    - xform/^tch([^hr_])/Q_$1/
+    - xform/^tc([^hr_])/c_$1/
+    - xform/^tsr([^hr_])/c_$1/
+    - xform/^tshr([^hr_])/Q_$1/
+    - xform/^tsh([^hr_])/I_$1/
+    - xform/^ts([^hr_])/C_$1/
     - xform/^tr/t/
     - xform/^kh/x/
     - xform/^thr/r_/
     - xform/^th/r_/
     - xform/^ph/f/
     - xform/^gh/G/
-    - xform/^dc/V/
-    - xform/^dzr/J/
-    - xform/^dz/B/
+    - xform/^dc([^hr_])/U_$1/
+    - xform/^dzr([^hr_])/V_$1/
+    - xform/^dz([^hr_])/J_$1/
+    - xform/^s([^chr_])/S_$1/    
+    - xform/^z([^chr_])/Z_$1/    
     - xform/^dr/d/
-    - xform/^z[rc]/Z/
-    - xform/^sc/L/
-    - xform/^sr/S/
+    - xform/^z[rc]([^hr_])/U_$1/
+    - xform/^s[cr]([^hr_])/L_$1/
     - xform/^nr/M/
     - xform/^j/j_/
     - xform/p$/mK/
