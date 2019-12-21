@@ -73,7 +73,7 @@ speller:
     - derive/^phwi/fhi/
     - derive/^bwi/fvi/
     - derive/^mwi/mvi/
-    - derive/(^f|fh|mv|fv)iui/$1vI/
+    - derive/(^f|fh|mv|fv)iui/$1vi/
     - derive/(^f|fh|mv|fv)iui/$1i/
     - derive/(^f|fh|mv|fv)i([aeiouy])/$1$2/
     - xform/^(tsr|tshr|dzr|sr|zr)[iv]([xh]?)$/$1eoi$2/
