@@ -141,7 +141,6 @@ speller:
     - xform/^([pfbmkxgNqhlG])r/$1/
     - derive/iE([Niw])/ia$1/
     - derive/^([^pfbmkxgNqhid]w?|j_w?)i([mn]?[XHK]?$)/$1ii$2/
-    - derive/([^wi])([uo])/$1w$2/
     - xform/iu([XH]?)$/wiu$1/
     - derive/wiu([XH]?)$/wY$1/
     - derive/wiu([XH]?)$/wiY$1/
