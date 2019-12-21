@@ -67,15 +67,15 @@ speller:
     - derive/nr/n/
     - derive/^pv/fv/
     - derive/^phv/fhv/
-    - derive/^bv/fvv/
+    - derive/^bv/bfv/
     - derive/^mv/mfv/
     - derive/^pwi/fi/
     - derive/^phwi/fhi/
-    - derive/^bwi/fvi/
+    - derive/^bwi/bfi/
     - derive/^mwi/mfi/
-    - derive/(^f|fh|mf|fv)iui/$1vi/
-    - derive/(^f|fh|mf|fv)iui/$1i/
-    - derive/(^f|fh|mf|fv)i([aeiouy])/$1$2/
+    - derive/(^f|fh|mf|bf)iui/$1vi/
+    - derive/(^f|fh|mf|bf)iui/$1i/
+    - derive/(^f|fh|mf|bf)i([aeiouy])/$1$2/
     - xform/^(tsr|tshr|dzr|sr|zr)[iv]([xh]?)$/$1eoi$2/
     - xform/^(tsr|tshr|dzr|sr|zr)i([mnpt][xh]?)$/$1eo$2/
     - xform/^(tsr|tshr|dzr|sr|zr)wi([nt][xh]?)$/$1weo$2/
@@ -88,10 +88,10 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)ie/$1ae/
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - xform/ro(k|ng)/rO$1/
-    - xform/^f([^vh_])/P_$1/
-    - xform/^fh([^vh_])/F_$1/
-    - xform/^fv([^vh_])/B_$1/
-    - xform/^mf([^vh_])/z_$1/
+    - xform/^f([^h_])/P_$1/
+    - xform/^fh([^h_])/F_$1/
+    - xform/^bf([^h_])/B_$1/
+    - xform/^mf([^h_])/z_$1/
     - xform/^nj([^hr_])/s_$1/
     - xform/^tch([^hr_])/Q_$1/
     - xform/^tc([^hr_])/c_$1/
