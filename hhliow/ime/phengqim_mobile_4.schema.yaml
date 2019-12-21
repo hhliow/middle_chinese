@@ -54,6 +54,7 @@ speller:
     - derive/^threh$/threaih/
     - derive/^threk$/threak/
     - xform/ea([mnptk])/ae$1/
+    - derive/(io([xh]?)$)/ia$1/
     - derive/([pbm]h?)w(ia|io[xh]?$)/$1$2/
     - derive/([pbm]h?)wio([xh]?$)/$1ia$2/
     - derive/([pbm]h?)iu([nit]?[xh]?$)/$1v$2/
