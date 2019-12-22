@@ -91,8 +91,9 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
     - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
-    - derive/(^nj?|[^jw])ie(n|t|m|p|k)/$1ea$2/
-    - derive/(^nj?|[^j])wie(n|t|m|p|k)/$1wea$2/
+    - derive/^(njw?)i(uw|o[xh]?$)/$1$2/
+    - derive/(^n?j|[^jw])ie(n|t|m|p|k)/$1ea$2/
+    - derive/(^n?j|[^j])wie(n|t|m|p|k)/$1wea$2/
     - xform/ro(k|ng)/rO$1/
     - xform/^f([^h_])/P_$1/
     - xform/^fh([^h_])/F_$1/
