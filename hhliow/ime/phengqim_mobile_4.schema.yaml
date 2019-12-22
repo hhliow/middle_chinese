@@ -64,7 +64,7 @@ speller:
     - derive/^zwanx$/zwianx/
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - derive/iu([xh]?)$/wv$1/
-    - derive/([^i])e([xhXH]?)$/$1ei$2/
+    - xform/([^i])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
     - derive/^pv/fv/
     - derive/^phv/fhv/
@@ -94,8 +94,8 @@ speller:
     - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
     - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
     - derive/^(njw?)i([uo][xh]?$)/$1$2/
-    - derive/(^n?j|[^jw])ie(n|t|m|p|k)/$1ea$2/
-    - derive/(^n?j|[^j])wie(n|t|m|p|k)/$1wea$2/
+    - derive/(^n?jw?|[^jw]|[^j]w)ie(n|t|m|p|k)/$1ea$2/
+    - derive/(^n?jw?|[^jw]|[^j]w)ie([xh]?$)/$1e$2/
     - xform/ro(k|ng)/rO$1/
     - xform/^f([^h_])/P_$1/
     - xform/^fh([^h_])/F_$1/
