@@ -63,6 +63,7 @@ speller:
     - derive/^dih$/dvih/
     - derive/^zwanx$/zwianx/
     - derive/([szrjc]|tsh|ch)iu/$1iw/
+    - derive/iu([xh]?)$/wv$1/
     - derive/([^i])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
     - derive/^pv/fv/
