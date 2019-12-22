@@ -90,10 +90,10 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)ia(ng|k)([xh]?)$/$1wa$2$3/
     - xform/^(tsr|tshr|dzr|sr|zr)ie/$1ae/
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
-    - derive/^(tc|tch|dc|sc|zc)(w?)ie/$1$2e/
-    - derive/^(tc|tch|dc|sc|zc)i(ung|uk|owng|owk|ang|ak)/$1$2/
-    - derive/([^jw])ie(n|t|m|p|k)/$1ea$2/
-    - derive/([^j])wie(n|t|m|p|k)/$1wea$2/
+    - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
+    - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
+    - derive/(^nj?|[^jw])ie(n|t|m|p|k)/$1ea$2/
+    - derive/(^nj?|[^j])wie(n|t|m|p|k)/$1wea$2/
     - xform/ro(k|ng)/rO$1/
     - xform/^f([^h_])/P_$1/
     - xform/^fh([^h_])/F_$1/
