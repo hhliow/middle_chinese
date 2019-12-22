@@ -93,7 +93,7 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
     - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
-    - derive/^(njw?)i([uo][xh]?$)/$1$2/
+    - derive/^(nj|dc|zc)(w?)i([uo][xh]?$)/$1$2$3/
     - derive/(^n?jw?|[^jw]|[^j]w)ie(n|t|m|p|k)/$1ea$2/
     - derive/(^n?jw?|[^jw]|[^j]w)ie([xh]?$)/$1e$2/
     - xform/ro(k|ng)/rO$1/
