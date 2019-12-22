@@ -83,6 +83,8 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)v(ng[xh]?|k)$/$1eo$2/
     - xform/^(tsr|tshr|dzr|sr|zr)io([xh]?)$/$1o$2/
     - xform/^(tsr|tshr|dzr|sr|zr)wio([xh]?)$/$1wo$2/
+    - derive/^(tsr|tshr|dzr|sr|zr)iu([xh]?)$/$1wu$2/
+    - derive/^(tsr|tshr|dzr|sr|zr)iu([xh]?)$/$1aw$2/
     - xform/^(tsr|tshr|dzr|sr|zr)iu([xh]?)$/$1u$2/
     - xform/^(tsr|tshr|dzr|sr|zr)iu(ng|k)([xh]?)$/$1u$2$3/
     - xform/^(tsr|tshr|dzr|sr|zr)iow(ng|k)([xh]?)$/$1ow$2$3/
@@ -91,7 +93,7 @@ speller:
     - xform/^(tsr|tshr|dzr|sr|zr)wie/$1wae/
     - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
     - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
-    - derive/^(njw?)i(uw|o[xh]?$)/$1$2/
+    - derive/^(njw?)i([uo][xh]?$)/$1$2/
     - derive/(^n?j|[^jw])ie(n|t|m|p|k)/$1ea$2/
     - derive/(^n?j|[^j])wie(n|t|m|p|k)/$1wea$2/
     - xform/ro(k|ng)/rO$1/
