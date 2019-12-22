@@ -54,7 +54,9 @@ speller:
     - derive/^threh$/threaih/
     - derive/^threk$/threak/
     - xform/ea([mnptk])/ae$1/
-    - derive/io([xh]?)$/ia$1/
+    - xform/io([xh]?)$/ia$1/
+    - derive/wia([xh]?)$/io$1/
+    - derive/wia([xh]?)$/wio$1/
     - derive/([pbm]h?)w(ia|io[xh]?$)/$1$2/
     - derive/([pbm]h?)wio([xh]?$)/$1ia$2/
     - derive/([pbm]h?)iu([nit]?[xh]?$)/$1v$2/
@@ -64,7 +66,7 @@ speller:
     - derive/^zwanx$/zwianx/
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - derive/iu([xh]?)$/wv$1/
-    - xform/([^i])e([xhXH]?)$/$1ei$2/
+    - xform/([^ai])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
     - derive/^pv/fv/
     - derive/^phv/fhv/
