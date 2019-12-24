@@ -104,7 +104,7 @@ speller:
     - derive/^([mpbf]h?)yung/$1ym/
     - derive/^([mpbf]h?)yo([xh]?)$/$1eo$2/
     - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1oe$2/
-    - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1o$2/
+    - derive/^([mpbf]h?)yo([nt])/$1o$2/
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
     - derive/ng([xh]?)$/g$1/
     - derive/ng([xh]?)$/v$1/
