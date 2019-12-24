@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim
   name: 中古拼音
-  version: "2018.12.21"
+  version: "2019.12.24"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -56,6 +56,7 @@ speller:
     - derive/^([khgpbmq]|kh|ng|ph)i([mp])/$1y$2/
     - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
     - derive/ieo/y/
+    - derive/y(ng|k)/i$1/
     - derive/^sc/sh/
     - derive/^zc/zh/
     - derive/^dc/dzh/
@@ -92,6 +93,7 @@ speller:
     - derive/wi([aeo])/y$1/
     - derive/iu/yu/
     - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)yu/$1u/
+    - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)io([xh]?$)/$1o$2/
     - derive/([^yi])eo([mprtni][xh]?)$/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
     - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
@@ -113,6 +115,7 @@ speller:
     - xform/^gh(w?[yi])/jh$1/
     - derive/([jc]|jh|ch|^zh|^sh)i([aeou])/$1$2/
     - derive/([jc]|ch|^zh|^sh)wi([nt][xh]?)$/$1u$2/
+    - derive/p$/b/
     - xform/t([xh]?)$/r$1/
     - xform/^kh/x/
     - xform/^ph/f/
