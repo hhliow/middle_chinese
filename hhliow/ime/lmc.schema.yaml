@@ -112,10 +112,11 @@ speller:
     - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1oe$2/
     - derive/^([mpbf]h?)yo([nt])/$1o$2/
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
-    - derive/^py([^ntk])/f$1/
-    - derive/^phy([^ntk])/fh$2/
-    - derive/^by([^ntk])/fv$1/
-    - derive/^my([^ntk])/v$1/
+    - derive/^py([^ntk])/fy$1/
+    - derive/^phy([^ntk])/fhy$2/
+    - derive/^by([^ntk])/fvy$1/
+    - derive/^my([^ntk])/vy$1/
+    - derive/^(f|fh|fv|v)y([aeiou])/$1$2/
     - derive/ung/um/    
     - xform/ng([xh]?)$/v$1/
     - xform/^ngr?(i|y[^ntk]|y$)/gn$1/
@@ -129,6 +130,7 @@ speller:
     - derive/([jc]|ch|^zh|^shh?)wi([nt][xh]?)$/$1u$2/
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)wi([nt][xh]?)$/$1u$2/
     - derive/iyi/iy/
+    - derive/eoi/oy/
     - xform/p$/b/
     - xform/t([xh]?)$/r$1/
     - xform/^kh/x/
