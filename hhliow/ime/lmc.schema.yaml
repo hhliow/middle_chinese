@@ -1,0 +1,145 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: lmc
+  name: LMC
+  version: "2019.12.30"
+  author:
+    - Phjong <hxliow@gmail.com>
+  description: |
+    切韻音系
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - "xform/'//"
+    - derive/([szrjc]|tsh|ch)iu/$1iw/
+    - xform/(.)j/$1c/
+    - derive/^([pbm]|ph)cia/$1ia/
+    - xform/(v|ieo)(i?[xh]?)$/y$2/
+    - xform/(v|ieo)(ng|k)/i$2/
+    - derive/^([khgpbmq]|kh|ng|ph)i([mp])/$1y$2/
+    - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
+    - derive/^sc/sh/
+    - derive/^zc/shh/    
+    - derive/^dc/shh/
+    - derive/ro(k|ng)/raew$1/
+    - derive/(rw?)(ae|ea)/$1a/
+    - derive/(rw?)ea/$1e/
+    - derive/iae([xh]?$)/ia$1/
+    - derive/iae(k|ng)/ie$1/
+    - derive/iow(k|ng)/yo$1/
+    - derive/ow(k|ng)/o$1/
+    - xform/wo([nt])/u$1/
+    - derive/woi/ui/
+    - derive/(n?[pbmkgqh]h?)r(w?ae|w?ea)/$1$2/
+    - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oa/
+    - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oe/
+    - derive/wia([ntmpi][xh]?)$/yo$1/
+    - derive/^ts([^h])/tz$1/
+    - derive/^thr/lh/
+    - derive/^tshr/lx/
+    - derive/^tshr/chr/
+    - derive/^tsh/sx/
+    - derive/^tsh/tx/
+    - derive/^dzr/jr/
+    - derive/^tch/ch/
+    - derive/^tsr/cr/
+    - derive/^dih$/drieh/
+    - derive/^dih$/djih/
+    - derive/^([tdn]|th)r(w?[iy])/$1$2/
+    - derive/cwi/yi/
+    - derive/(^c)wie/$1ue/
+    - derive/wi([aeo])/y$1/
+    - derive/wio([xh]?)$/yu$1/
+    - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)yu/$1u/
+    - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)io([xh]?$)/$1o$2/
+    - derive/([^yi])eo([rtnk])/$1y$2/
+    - derive/([^yi])eo([mp])/$1o$2/
+    - derive/weo(ng[xh]?|k)$/oi$1/
+    - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
+    - derive/^([mpbf]h?)yu([nti]?[xh]?)$/$1y$2/
+    - derive/^([mpbf]h?)ya(m|p|ng|k)/$1wa$2/
+    - derive/^([mpbf]h?)ya(m|p|ng|k)/$1ua$2/
+    - derive/^([mpbf]h?)yo(m|p|ng)/$1o$2/
+    - derive/^([mpbf]h?)yo(m|p|ng)/$1wo$2/
+    - derive/^([mpbf]h?)yo(m|p|ng)/$1uo$2/
+    - derive/^([mpbf]h?)yung/$1ym/
+    - derive/^([mpbf]h?)yo([xh]?)$/$1eo$2/
+    - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1oe$2/
+    - derive/^([mpbf]h?)yo([nt])/$1o$2/
+    - derive/^([pbf]h?)ya(m|p)/$1a$2/
+    - derive/ung/um/    
+    - xform/ng([xh]?)$/v$1/
+    - derive/rwa([nti]?[xh]?)$/ro$1/
+    - xform/^ngi/gni/
+    - xform/^ngy/gny/
+    - xform/^ngc/gc/
+    - derive/^gni([aeoiuy])/gn$1/
+    - derive/^gnyu/gnu$1/
+    - xform/^ng([^iyc])/g$1/
+    - xform/^gh(w?[yi])/jh$1/
+    - derive/([jc]|jh|ch|^zh|^sh)i([aeou])/$1$2/
+    - derive/([jc]|ch|^zh|^sh)wi([nt][xh]?)$/$1u$2/
+    - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)wi([nt][xh]?)$/$1u$2/
+    - xform/p$/b/
+    - xform/t([xh]?)$/r$1/
+    - xform/^kh/x/
+
+translator:
+  dictionary: phengqim
+  spelling_hints: 4
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
