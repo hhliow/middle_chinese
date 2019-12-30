@@ -65,7 +65,7 @@ speller:
     - derive/^zc/shh/    
     - derive/^dc/shh/
     - derive/ro(k|ng)/raew$1/
-    - derive/(rw?)(ae|ea)/$1a/
+    - derive/(rw?)ae/$1a/
     - derive/(rw?)ea/$1e/
     - derive/iae([xh]?$)/ia$1/
     - derive/iae(k|ng)/ie$1/
