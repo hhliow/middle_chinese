@@ -52,12 +52,15 @@ speller:
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - xform/(.)j/$1c/
     - derive/^([pbm]|ph)cia/$1ia/
-    - xform/(v|ieo)(i?[xh]?)$/y$2/
+    - xform/(v|ieo)([xh]?)$/y$2/
     - xform/(v|ieo)(ng|k)/i$2/
+    - xform/ieo/v/    
     - derive/^([khgpbmq]|kh|ng|ph)i([mp])/$1y$2/
-    - xform/^([khgpbmq]|kh|ng|ph)i(n|t)/$1r$2i/
+    - xform/^([khgq]|kh)i(n[xh]?|t)$/$1ri$2/
     - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
-    - xform/(v|ieo)(n|t)/$1i$2/
+    - xform/^ngv(n[xh]?|t)$/ngiy$1/
+    - xform/v(n[xh]?|t)$/i$1/
+    - xform/vi/iyi/
     - derive/^sc/sh/
     - derive/^zc/shh/    
     - derive/^dc/shh/
@@ -89,6 +92,7 @@ speller:
     - derive/cwi/yi/
     - derive/(^c)wie/$1ue/
     - derive/wi([aeo])/y$1/
+    - derive/w?iu([nkti])/yu$1/
     - derive/wio([xh]?)$/yu$1/
     - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)yu/$1u/
     - derive/^(t?[sz]r|dzr|jr|tshr|lx|ch?r)io([xh]?$)/$1o$2/
@@ -96,7 +100,8 @@ speller:
     - derive/([^yi])eo([mp])/$1o$2/
     - derive/weo(ng[xh]?|k)$/oi$1/
     - derive/(c|^zh|ch|^sh)ye([nti][xh]?)$/$1o$2/
-    - derive/^([mpbf]h?)yu([nti]?[xh]?)$/$1y$2/
+    - derive/^([mpbf]h?)yu([nti][xh]?)$/$1y$2/
+    - derive/^([mpbf]h?)iu([xh]?)$/$1y$2/
     - derive/^([mpbf]h?)ya(m|p|ng|k)/$1wa$2/
     - derive/^([mpbf]h?)ya(m|p|ng|k)/$1ua$2/
     - derive/^([mpbf]h?)yo(m|p|ng)/$1o$2/
@@ -107,20 +112,17 @@ speller:
     - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1oe$2/
     - derive/^([mpbf]h?)yo([nt])/$1o$2/
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
-    - derive/^py/fy/
-    - derive/^phy/fhy/
-    - derive/^by/fvy/
-    - derive/^my/vy/
-    - derive/^(f|fh|fv|v)y([aeiou])/$1$2/
+    - derive/^py([^ntk])/f$1/
+    - derive/^phy([^ntk])/fh$2/
+    - derive/^by([^ntk])/fv$1/
+    - derive/^my([^ntk])/v$1/
     - derive/ung/um/    
     - xform/ng([xh]?)$/v$1/
-    - derive/rwa([nti]?[xh]?)$/ro$1/
-    - xform/^ngi/gni/
-    - xform/^ngy/gny/
+    - xform/^ngr?(i|y[^ntk]|y$)/gn$1/
     - xform/^ngc/gc/
     - derive/^gni([aeoiuy])/gn$1/
     - derive/^gnyu/gnu$1/
-    - xform/^ng([^iyc])/g$1/
+    - xform/^ng/g/
     - xform/^gh(w?[yi])/jh$1/
     - derive/([jc]|jh|ch|^zh|^sh)i([aeou])/$1$2/
     - derive/([jc]|ch|^zh|^sh)wi([nt][xh]?)$/$1u$2/
