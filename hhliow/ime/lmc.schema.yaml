@@ -124,9 +124,11 @@ speller:
     - derive/^gnyu/gnu$1/
     - xform/^ng/g/
     - xform/^gh(w?[yi])/jh$1/
-    - derive/([jc]|jh|ch|^zh|^sh)i([aeou])/$1$2/
-    - derive/([jc]|ch|^zh|^sh)wi([nt][xh]?)$/$1u$2/
+    - derive/([jc]|jh|ch|^zh|^shh?)i([aeo])/$1$2/
+    - derive/([jc]|jh|ch|^zh|^shh?)yu/$1u/
+    - derive/([jc]|ch|^zh|^shh?)wi([nt][xh]?)$/$1u$2/
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)wi([nt][xh]?)$/$1u$2/
+    - derive/iyi/iy/
     - xform/p$/b/
     - xform/t([xh]?)$/r$1/
     - xform/^kh/x/
