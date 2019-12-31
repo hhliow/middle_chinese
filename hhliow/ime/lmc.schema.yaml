@@ -5,7 +5,7 @@
 schema:
   schema_id: lmc
   name: LMC
-  version: "2019.12.30"
+  version: "2019.12.31"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -76,6 +76,7 @@ speller:
     - derive/iow(k|ng)/yo$1/
     - derive/ow(k|ng)/o$1/
     - xform/wo([nt])/u$1/
+    - derive/([^r])wa(n[xh]?|t)$/$1wo$2/
     - derive/iui/uy/
     - derive/woi/ui/
     - derive/([^r])wai/$1woy/
