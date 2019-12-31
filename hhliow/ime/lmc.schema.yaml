@@ -52,7 +52,8 @@ speller:
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - xform/u([xh]?)$/uw$1/
     - derive/iuw$/iu$1/
-    - xform/([^i])o/$1u/
+    - xform/([^iry])o([xh]?)$/$1u$2/
+    - derive/([^iry])a([xh]?)$/$1o$2/
     - xform/(.)j/$1c/
     - derive/^([pbm]|ph)cia/$1ia/
     - xform/(v|ieo)([xh]?)$/y$2/
@@ -132,6 +133,7 @@ speller:
     - derive/([jc]|jh|ch|^zh|^shh?)yu/$1u/
     - derive/([jc]|ch|^zh|^shh?)wi([nt][xh]?)$/$1u$2/
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)wi([nt][xh]?)$/$1u$2/
+    - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)ia(ng|k|v)/$1wa$2/
     - derive/iyi/iy/
     - derive/eoi/oy/
     - xform/p$/b/
