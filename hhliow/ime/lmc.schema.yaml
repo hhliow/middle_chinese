@@ -76,7 +76,8 @@ speller:
     - derive/iow(k|ng)/yo$1/
     - derive/ow(k|ng)/o$1/
     - xform/wo([nt])/u$1/
-    - derive/iui/ui/
+    - derive/iui/uy/
+    - derive/woi/ui/
     - derive/([^r])wai/$1woy/
     - derive/([^rw])ai/$1oy/
     - derive/(n?[pbmkgqh]h?)r(w?ae|w?ea)/$1$2/
