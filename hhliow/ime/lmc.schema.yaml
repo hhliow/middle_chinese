@@ -50,6 +50,9 @@ speller:
   algebra:
     - "xform/'//"
     - derive/([szrjc]|tsh|ch)iu/$1iw/
+    - xform/u([xh]?)$/uw$1/
+    - derive/iuw$/iu$1/
+    - xform/([^i])o/$1u/
     - xform/(.)j/$1c/
     - derive/^([pbm]|ph)cia/$1ia/
     - xform/(v|ieo)([xh]?)$/y$2/
