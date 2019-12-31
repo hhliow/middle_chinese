@@ -51,7 +51,7 @@ speller:
     - "xform/'//"
     - derive/([szrjc]|tsh|ch)iu/$1iw/
     - xform/u([xh]?)$/uw$1/
-    - derive/iuw$/iu$1/
+    - derive/iuw/iu$1/
     - xform/([^iry])o([xh]?)$/$1u$2/
     - derive/([^iry])a([xh]?)$/$1o$2/
     - xform/(.)j/$1c/
@@ -76,7 +76,9 @@ speller:
     - derive/iow(k|ng)/yo$1/
     - derive/ow(k|ng)/o$1/
     - xform/wo([nt])/u$1/
-    - derive/woi/ui/
+    - derive/iui/ui/
+    - derive/([^r])wai/$1woy/
+    - derive/([^rw])ai/$1oy/
     - derive/(n?[pbmkgqh]h?)r(w?ae|w?ea)/$1$2/
     - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oa/
     - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oe/
@@ -135,7 +137,7 @@ speller:
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)wi([nt][xh]?)$/$1u$2/
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)ia(ng|k|v)/$1wa$2/
     - derive/iyi/iy/
-    - derive/eoi/oy/
+    - derive/eoi/oi/
     - xform/p$/b/
     - xform/t([xh]?)$/r$1/
     - xform/^kh/x/
