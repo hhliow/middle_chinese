@@ -113,7 +113,7 @@ speller:
     - derive/^([mpbf]h?)yo([nt])/$1o$2/
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
     - derive/^py([^ntk])/fy$1/
-    - derive/^phy([^ntk])/fhy$2/
+    - derive/^phy([^ntk])/fhy$1/
     - derive/^by([^ntk])/fvy$1/
     - derive/^my([^ntk])/vy$1/
     - derive/^(f|fh|fv|v)y([aeiou])/$1$2/
