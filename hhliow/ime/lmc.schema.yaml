@@ -58,7 +58,7 @@ speller:
     - xform/(v|ieo)([xh]?)$/y$2/
     - xform/(v|ieo)(ng|k)/i$2/
     - xform/ieo/v/    
-    - derive/^([khgpbmq]|kh|ng|ph)i([mp])/$1y$2/
+    - derive/^([khgq]|kh|ng)i([mp])/$1y$2/
     - xform/^([khgq]|kh)i(n[xh]?|t)$/$1ri$2/
     - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
     - xform/^ngv(n[xh]?|t)$/ngiy$1/
