@@ -10,7 +10,7 @@
 
 ---
 name: phengqim
-version: "2019.11.1"
+version: "2020.6.22"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -25860,6 +25860,7 @@ use_preset_vocabulary: true
 褶	zip
 柘	tciaeh
 𦯍	triep
+這	dzreax
 這	tciaex
 這	tciek
 這	ngienh
