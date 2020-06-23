@@ -5,7 +5,7 @@
 schema:
   schema_id: lmc
   name: LMC
-  version: "2020.2.24"
+  version: "2020.6.23"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -119,6 +119,8 @@ speller:
     - derive/^([mpbf]h?)yo([nt]?[xh]?)$/$1oe$2/
     - derive/^([mpbf]h?)yo([nt])/$1o$2/
     - derive/^([pbf]h?)ya(m|p)/$1a$2/
+    - derive/iuw/yuw/
+    - derive/iuw/yiuw/
     - derive/^py([^ntk])/fy$1/
     - derive/^phy([^ntk])/fhy$1/
     - derive/^by([^ntk])/fvy$1/
@@ -129,7 +131,7 @@ speller:
     - xform/^ngr?(i|y[^ntk]|y$)/gn$1/
     - xform/^ngc/gc/
     - derive/^gni([aeoiuy])/gn$1/
-    - derive/^gnyu/gnu$1/
+    - derive/^gny(u|ot|on[xh]?$)/gn$1/
     - derive/^nguy/gnuy/
     - xform/^ng/g/
     - xform/^gh(w?i|w?y[^ntk])/jh$1/
@@ -140,8 +142,10 @@ speller:
     - derive/(t?[sz]r|dzr|jr|tshr|lx|ch?r)ia(ng|k|v)/$1wa$2/
     - derive/iyi/iy/
     - derive/eoi/oi/
-    - derive/iuw/w$1/
-    - derive/iuw/iu$1/
+    - derive/iu(n|t|k|v)/w$1/
+    - derive/iui/wy/
+    - derive/iuw/w/
+    - derive/iuw/iu/
     - derive/([aeiou])([yiwnvm]?)x/$1$1$2/    
     - derive/([yw])([wnvm]?)x/$1$1$2/
     - xform/p$/b/
