@@ -5,7 +5,7 @@
 schema:
   schema_id: phengqim_mobile_4
   name: 中古拼音手機四式
-  version: "2019.12.22"
+  version: "2019.06.23"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -68,6 +68,7 @@ speller:
     - derive/iu([xh]?)$/wv$1/
     - xform/([^ai])e([xhXH]?)$/$1ei$2/
     - derive/nr/n/
+    - derive/([pbm]h?)iu(ng|k|x|h|$)/$1vu$2/
     - derive/^pv/fv/
     - derive/^phv/fhv/
     - derive/^bv/bfv/
@@ -78,12 +79,12 @@ speller:
     - derive/^mwi/mfi/
     - derive/(^f|fh|mf|bf)iui/$1vi/
     - derive/(^f|fh|mf|bf)iui/$1i/
-    - derive/(^f|fh|mf|bf)i([aeiouy])/$1$2/
+    - derive/(^f|fh|mf|bf)[iv]([aeiouy])/$1$2/
     - xform/^(tsr|tshr|dzr|sr|zr)[iv]([xh]?)$/$1eoi$2/
     - xform/^(tsr|tshr|dzr|sr|zr)i([mnpt][xh]?)$/$1eo$2/
     - xform/^(tsr|tshr|dzr|sr|zr)wi([nt][xh]?)$/$1weo$2/
     - xform/^(tsr|tshr|dzr|sr|zr)v(ng[xh]?|k)$/$1eo$2/
-    - xform/^(tsr|tshr|dzr|sr|zr)io([xh]?)$/$1o$2/
+    - xform/^(tsr|tshr|dzr|sr|zr)i([oa][xh]?)$/$1$2/
     - xform/^(tsr|tshr|dzr|sr|zr)wio([xh]?)$/$1wo$2/
     - derive/^(tsr|tshr|dzr|sr|zr)iu([xh]?)$/$1wu$2/
     - derive/^(tsr|tshr|dzr|sr|zr)iu([xh]?)$/$1aw$2/
@@ -96,7 +97,7 @@ speller:
     - derive/^(tc|tch|dc|sc|zc|nj)(w?)ie/$1$2e/
     - derive/^(tc|tch|dc|sc|zc|nj)i(ung|uk|owng|owk|ang|ak)/$1$2/
     - derive/^(nj|dc|zc)(w?)i([uo][xh]?$)/$1$2$3/
-    - derive/(^n?jw?|[^jw]|[^j]w)ie(n|t|m|p|k)/$1ea$2/
+    - derive/(^n?jw?|[^jw]|[^j]w)ia?e(n|t|m|p|k)/$1ea$2/
     - derive/(^n?jw?|[^jw]|[^j]w)ie([xh]?$)/$1e$2/
     - xform/ro(k|ng)/rO$1/
     - xform/^f([^h_])/P_$1/
