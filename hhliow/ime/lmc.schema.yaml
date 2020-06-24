@@ -5,7 +5,7 @@
 schema:
   schema_id: lmc
   name: LMC
-  version: "2020.6.23"
+  version: "2020.6.24"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -58,9 +58,8 @@ speller:
     - xform/(v|ieo)([xh]?)$/y$2/
     - xform/(v|ieo)(ng|k)/i$2/
     - xform/ieo/v/    
-    - derive/^([khgq]|kh|ng)i([mp])/$1y$2/
     - xform/^([khgq]|kh)i(n[xh]?|t)$/$1ri$2/
-    - derive/^([khgpbmq]|kh|ng|ph)(w?)i/$1r$2i/
+    - derive/^([khgpbmq]|kh|ng|ph)(w?)i([aentkmpxh]|$)/$1r$2i$3/
     - xform/^ngv(n[xh]?|t)$/ngiy$1/
     - xform/v(n[xh]?|t)$/i$1/
     - xform/vi/iyi/
@@ -72,6 +71,8 @@ speller:
     - derive/(rw?)ea/$1e/
     - derive/iae([xh]?$)/ia$1/
     - derive/iae(k|ng)/ie$1/
+    - derive/(sr|tshr|zr)ia?e(k|ng)/$1e$2/
+    - derive/(sr|tshr|zr)ia?e(k|ng)/$1a$2/
     - derive/iow(k|ng)/yo$1/
     - derive/ow(k|ng)/o$1/
     - xform/wo([nt])/u$1/
@@ -81,8 +82,10 @@ speller:
     - derive/([^r])wai/$1woy/
     - derive/([^rw])ai/$1oy/
     - derive/(n?[pbmkgqh]h?)r(w?ae|w?ea)/$1$2/
-    - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oa/
-    - derive/(n?[pbmkgqh]h?)rw(ae|ea)/$1oe/
+    - derive/(n?[pbmkgqh]h?)rwae/$1oa/
+    - derive/(n?[pbmkgqh]h?)rwea/$1oe/
+    - derive/(r|o)e([imntp][xh]?$)/$1a$2/
+    - derive/(r|o)a(ng|k)/$1e$2/
     - derive/wia([ntmpi][xh]?)$/yo$1/
     - derive/^ts([^h])/tz$1/
     - derive/^thr/lh/
@@ -96,7 +99,6 @@ speller:
     - derive/^dih$/drieh/
     - derive/^dih$/djih/
     - derive/^([tdn]|th)r(w?[iy])/$1$2/
-    - derive/cwi/yi/
     - derive/(^c)wie/$1ue/
     - derive/wi([aeo])/y$1/
     - derive/w?iu([nkti])/yu$1/
@@ -143,6 +145,8 @@ speller:
     - derive/iyi/iy/
     - derive/eoi/oi/
     - derive/iu(n|t|k|v)/w$1/
+    - derive/rwi/rw/
+    - derive/cwi/cw/
     - derive/iui/wy/
     - derive/iuw/w/
     - derive/iuw/iu/
