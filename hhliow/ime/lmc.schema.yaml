@@ -5,7 +5,7 @@
 schema:
   schema_id: lmc
   name: LMC
-  version: "2020.6.24"
+  version: "2020.7.21"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -128,15 +128,17 @@ speller:
     - derive/^by([^ntk])/fvy$1/
     - derive/^my([^ntk])/vy$1/
     - derive/^(f|fh|fv|v)y([aeiou])/$1$2/
-    - derive/ung/um/    
+    - derive/ung/um/
     - xform/ng([xh]?)$/v$1/
-    - xform/^ngr?(i|y[^ntk]|y$)/gn$1/
-    - xform/^ngc/gc/
-    - derive/^gni([aeoiuy])/gn$1/
-    - derive/^gny(u|ot|on[xh]?$)/gn$1/
+    - xform/^g([^h])/gx$1/
+    - derive/^ngr?(i|y[^ntk]|y$)/gn$1/
+    - derive/^(gn|gx)i([aeoiuy])/$1$2/
+    - derive/^(gn|gx)y(u|ot|on[xh]?$)/$1$2/
     - derive/^nguy/gnuy/
-    - xform/^ng/g/
+    - xform/^ng/gg/
     - xform/^gh(w?i|w?y[^ntk])/jh$1/
+    - derive/gxc/gc/
+    - derive/nc/jn/
     - derive/([jc]|jh|ch|^zh|^shh?)i([aeo])/$1$2/
     - derive/([jc]|jh|ch|^zh|^shh?)yu/$1u/
     - derive/([jc]|ch|^zh|^shh?)wi([nt][xh]?)$/$1u$2/
